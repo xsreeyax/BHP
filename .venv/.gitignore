@@ -1,0 +1,29 @@
+# created by virtualenv automatically
+# Ignore Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+
+# IDE / Editor settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
