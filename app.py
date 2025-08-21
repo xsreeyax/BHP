@@ -7,8 +7,9 @@ import pandas as pd
 import pickle
 
 # Load model
-with open("RidgeModel.pkl", "rb") as f:
-    pipe = pickle.load(f)
+import joblib
+pipe = joblib.load("RidgeModel_compressed.pkl")
+
 
 # Try to get known locations from the model
 def get_locations_from_pipeline(pipeline):
