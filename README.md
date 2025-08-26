@@ -22,6 +22,7 @@ Model outputs predicted price in Lakhs
 
 
 Key Highlights:
+
 -Dropdown for location — no typos in input
 
 -Complete content-based prediction (no external APIs)
